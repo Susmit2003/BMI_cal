@@ -1,0 +1,63 @@
+#parent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,
+    rgb(176, 208, 254),
+    rgb(108, 103, 93),
+    rgb(229, 251, 252));
+}
+.user_input{
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgb(17, 1, 1);
+    height: 25px;
+}
+.user_input:hover{
+    
+    height: 28px;
+    background-color: rgb(226, 254, 254);
+    transition: .8s; 
+}
+#btn{
+    
+    width: 80px;
+    background-color: rgb(91, 202, 239);
+    border-radius: 80px;
+    box-shadow: 10px 10px 20px rgb(17, 1, 1);
+
+}
+#btn:hover{
+    width: 100px;
+    background-color: rgb(144, 221, 247);
+    transition: .5s; 
+}
+
+#child1{
+    height: 40vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 20px rgb(0, 17, 32);
+    background-color: antiquewhite;
+}
+#child1:hover{
+    height: 45vh;
+    width: 21vw;
+    background-color: rgb(216, 230, 231);
+    transition: .8s; 
+}
+
+#output{
+    margin-top: 40px;
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(143, 115, 4);
+    box-shadow: 10px 10px 20px rgb(0, 17, 32);
+    transition: .6s;
+    background-color: aliceblue;
+}
